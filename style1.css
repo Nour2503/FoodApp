@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300;1,600&family=Work+Sans:wght@300&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image: url('breakfast-fastfood-1647548144.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 15px; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top:30%;
+}
+.left{
+    margin-left: 6%;
+}
+.left h1{
+    font-size:90px;
+    color:#fff;
+    line-height:1;
+    float: left;
+}
+.right{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right p{
+    font-size:20px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-right: 1px;
+  
+}
+#icon{
+    width: 60%;
+    cursor: pointer;
+}
